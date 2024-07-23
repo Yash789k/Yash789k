@@ -1,0 +1,102 @@
+//Cgpa calculator
+// (s.d),(Unlimited Grades can be added)(credits)
+
+#include<iostream>
+#include <vector>
+using namespace std;
+//This is the class where all our functions will be stored in
+class GPA{
+    public:
+        void AskforGrade(){
+            int n,c,z;
+            vector<int> array1(z);
+            vector<int> array2(z);
+            cout << "Enter your Grade for Subject "<< n <<endl;
+            void LetterGradetoGPA();
+            //This is where we are judging the input and converting it to numerical values
+            //Then we input it into the array1
+                while (true){
+                    if (grade != "0"){  //This is to make sure that the input is a letter and not a non int character
+                        if(grade == "A" || grade == "a"){
+                            array1.push_back(4.3);
+                        } else if(grade == "A" || grade == "a-"){
+                            array1.push_back(4.0);
+                        } else if(grade == "A-"|| grade == "a-"){
+                            array1.push_back(3.7);
+                        } else if(grade == "B+"|| grade == "b+"){
+                            array1.push_back(3.3);    
+                        } else if(grade == "B"|| grade == "b"){
+                            array1.push_back(3.0);
+                        } else if(grade == "B-"|| grade == "b-"){
+                            array1.push_back(2.7);
+                        } else if(grade == "C+"|| grade == "c+"){
+                            array1.push_back(2.3);
+                        } else if(grade == "C"|| grade == "c"){
+                            array1.push_back(2.0);
+                        } else if(grade == "C-"|| grade == "c-"){
+                            array1.push_back(1.7);
+                        } else if(grade == "D"|| grade == "d"){
+                            array1.push_back(1.0);
+                        }
+                        break;
+                    }else{  //This is to failsafe incase it is a non int character, returns back to the function
+                        cout << "Please Enter a Letter type"<< endl;
+                        cin.clear();
+                        return;
+                    }
+                }
+            //This is where you input credits depending on the subjects you took
+            cout << "Enter the Amount of credits for Subject "<< n << endl;
+            for (int i = 0; i < z; i++){
+                cin >> array2[i];
+            }
+    
+            n+=1; //This is to simply print that how many subjects the user has inputted
+
+            int resultArray[z]; //This multiples the GPA with its respective credits and adds them to a different array
+            for(int i = 0; i < z; i++){
+                resultArray[i] = array1[i] * array2[i];
+            }
+            float sum = 0.0;
+            float sum1 = 0.0;
+            float sum2 = 0.0;
+            float total;
+            for(int i = 0; i < (z+1); i++){
+                sum += resultArray[z];
+            }
+            for(int i = 0; i < (z+1); i++){
+                sum1 += array1[z];
+            }
+            for(int i = 0; i < (z+1); i++){
+                sum2 += array2[z];
+            }
+            total = ((sum)/(sum1*sum2));
+            cout << "Okay here is your final GPA" << total <<endl;
+        
+
+        } //Now we will add up all the float type numbers in the array and then divide them by the number of (credits * courses taken)
+
+    private:
+        string grade;
+        float percent = 0.0, gpafinal;
+        
+};
+
+
+int main() {
+    char ch;
+    int size;
+    GPA gpa;
+    while (true){
+        gpa.AskforGrade();
+        cout << "Press 'n' to add a new Subject" << endl;
+        cin >> noskipws >> ch;
+        if (ch == 'N' || ch == 'n'){
+            continue;
+        } else{
+            break;
+        }
+    }
+    
+    return 0;
+}

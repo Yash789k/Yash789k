@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-02",
+  "updated_utc": "2026-10-03",
   "public_repository_count": 19,
   "original_project_count": 9,
   "primary_languages": {
@@ -11,6 +11,11 @@
   },
   "recent_projects": [
     {
+      "name": "YashKataria",
+      "url": "https://github.com/Yash789k/YashKataria",
+      "pushed_at": "2026-10-02T12:10:20Z"
+    },
+    {
       "name": "nexuside",
       "url": "https://github.com/Yash789k/nexuside",
       "pushed_at": "2026-09-23T15:33:06Z"
@@ -19,11 +24,6 @@
       "name": "python-dependency-upgrade-evaluator",
       "url": "https://github.com/Yash789k/python-dependency-upgrade-evaluator",
       "pushed_at": "2026-09-22T04:11:40Z"
-    },
-    {
-      "name": "market-operations-lab",
-      "url": "https://github.com/Yash789k/market-operations-lab",
-      "pushed_at": "2026-08-19T10:38:04Z"
     }
   ],
   "scope": "Public, owner repositories only. Language counts exclude forks, empty repositories, and the profile repository. Counts describe repositories, not skill levels."

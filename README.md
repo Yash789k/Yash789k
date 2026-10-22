@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://yash-kataria-olive.vercel.app"><strong>Portfolio ↗</strong></a>
+  <a href="https://yashkataria.com/"><strong>Portfolio ↗</strong></a>
   &nbsp; · &nbsp;
   <a href="https://www.linkedin.com/in/yash-kataria-371473296/"><strong>LinkedIn ↗</strong></a>
   &nbsp; · &nbsp;

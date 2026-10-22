@@ -1,15 +1,20 @@
 {
-  "updated_utc": "2026-10-21",
-  "public_repository_count": 20,
-  "original_project_count": 9,
+  "updated_utc": "2026-10-22",
+  "public_repository_count": 21,
+  "original_project_count": 10,
   "primary_languages": {
     "HTML": 3,
+    "JavaScript": 2,
     "Python": 2,
-    "JavaScript": 1,
     "TypeScript": 1,
     "CSS": 1
   },
   "recent_projects": [
+    {
+      "name": "Sift",
+      "url": "https://github.com/Yash789k/Sift",
+      "pushed_at": "2026-10-22T08:39:09Z"
+    },
     {
       "name": "YashKataria",
       "url": "https://github.com/Yash789k/YashKataria",
@@ -19,11 +24,6 @@
       "name": "nexuside",
       "url": "https://github.com/Yash789k/nexuside",
       "pushed_at": "2026-09-23T15:33:06Z"
-    },
-    {
-      "name": "python-dependency-upgrade-evaluator",
-      "url": "https://github.com/Yash789k/python-dependency-upgrade-evaluator",
-      "pushed_at": "2026-09-22T04:11:40Z"
     }
   ],
   "scope": "Public, owner repositories only. Language counts exclude forks, empty repositories, and the profile repository. Counts describe repositories, not skill levels."

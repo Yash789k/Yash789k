@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-24",
+  "updated_utc": "2026-11-25",
   "public_repository_count": 22,
   "original_project_count": 11,
   "primary_languages": {
@@ -11,19 +11,19 @@
   },
   "recent_projects": [
     {
+      "name": "ML-TradeEngine",
+      "url": "https://github.com/Yash789k/ML-TradeEngine",
+      "pushed_at": "2026-11-25T12:19:37Z"
+    },
+    {
       "name": "GemDuel-Comp4021",
       "url": "https://github.com/Yash789k/GemDuel-Comp4021",
-      "pushed_at": "2026-11-24T09:36:08Z"
+      "pushed_at": "2026-11-25T08:39:52Z"
     },
     {
       "name": "Sift",
       "url": "https://github.com/Yash789k/Sift",
       "pushed_at": "2026-11-17T06:59:21Z"
-    },
-    {
-      "name": "YashKataria",
-      "url": "https://github.com/Yash789k/YashKataria",
-      "pushed_at": "2026-10-20T15:53:19Z"
     }
   ],
   "scope": "Public, owner repositories only. Language counts exclude forks, empty repositories, and the profile repository. Counts describe repositories, not skill levels."
